@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Prepopulates ChatGPT with an initial prompt",
   "permissions": ["scripting"],
-  "host_permissions": ["https://chat.openai.com/*"],
+  "host_permissions": ["https://chat.openai.com/*", "https://claude.ai/*"],
   "background": {
     "service_worker": "index.js"
   }
